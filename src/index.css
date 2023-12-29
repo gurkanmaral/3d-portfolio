@@ -252,3 +252,15 @@ object-fit: contain;
 .contact:hover{
   scale: 1.10;
 }
+
+
+@media screen and (max-width:600px) {
+  .about{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .about-text{
+    line-height: 30px;
+  }
+}

@@ -11,7 +11,10 @@ const  App = () => {
     <BrowserRouter>
     <div className="relative z-0 ">
        <div className=" bg-cover bg-no-repeat bg-center">
-       <StarsCanvas />
+        <div className='hidden lg:block'>
+         <StarsCanvas />
+        </div>
+      
          <Navbar />
          <Hero />
        </div>

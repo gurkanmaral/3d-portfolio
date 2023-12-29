@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { github } from '../assets'
@@ -6,15 +6,15 @@ import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn,textVariant } from '../utils/motion'
 
+const isMobile = window.innerWidth <= 768;
 
 const ProjectCard = ({index,name,description,tags,
   image,source_code_link,demo})=>{
-    return (
-      
-      <motion.div variants={fadeIn("up","spring",index * 0.5, 0.75)}>
+    return ( 
+      <motion.div variants={isMobile ? {} : fadeIn("up", "spring", index * 0.5, 0.75)}>
         <div     
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px]
-        w-full">
+        w-full ">
             <div className='relative w-full h-[230px]'>
               <img src={image} alt={name}
               className="w-full h-full object-cover rounded-2xl" />
@@ -30,10 +30,12 @@ const ProjectCard = ({index,name,description,tags,
                   
               </div>       
             </div>
-            <div className='mt-5'>
+            <div className='mt-5 '>
                 <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-                <p className='mt-2 text-secondary
-                text-[14px]'>{description}</p>
+                <div className='h-[100px] overflow-x-auto'>
+                  <p className='mt-2 text-secondary 
+                  text-[14px]'>{description}</p>
+                </div>
             </div>
             <div className='mt-4 flex flex-wrap gap-2'>
               {tags.map((tag)=>(
@@ -43,11 +45,13 @@ const ProjectCard = ({index,name,description,tags,
                 </p>
               ))}
             </div>
-            <div className='mt-4 text-white font-bold cursor-pointer'>
+            {demo && (
+              <div className='mt-4 text-white font-bold cursor-pointer'>
               <div onClick={()=> window.open(demo,"_blank")}>
                     <p>LIVE DEMO</p>
               </div>
             </div>
+            )}
         </div>
       </motion.div>
     )
@@ -55,16 +59,16 @@ const ProjectCard = ({index,name,description,tags,
 
 const Works = () => {
   return (
-    <> 
-      <motion.div variants={textVariant()} className='flex justify-center'>
+    <div className=''> 
+      <motion.div variants={textVariant()} className='flex justify-center '>
         <h2 className={styles.sectionHeadText}>
           My Projects
         </h2>
     </motion.div>
 
-    <div className='w-full flex justify-center'>
+    <div className='w-full flex justify-center '>
       <motion.p
-      variants={fadeIn("up","spring",0.1,1)}
+      variants={isMobile ? {} : fadeIn("up", "spring", 0.1, 1)}
       className="mt-3 text-white text-[20px]  
       leading-[30px] tracking-wider  "
       >
@@ -83,7 +87,7 @@ const Works = () => {
         />
       ))}
     </div>
-    </>
+    </div>
   )
 }
 

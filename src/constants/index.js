@@ -15,16 +15,15 @@ import {
     git,
     figma,
     docker,
-    
-    
-    
-    
     carrent,
     jobit,
     threejs,
     gamestore,
     oculoss,
-    threads
+    threads,
+    socialAppwrite,
+    movieapp,
+    facebookk
   } from "../assets";
   
   export const navLinks = [
@@ -137,24 +136,77 @@ import {
     {
       name: "E-Store App",
       description:
-        "Web application that you can see companies products and navigate etsy link of spesific products.Also, you can find information about products such as features and fabric details.",
+        "An e-commerce app has been developed using Payload CMS and integrated with Stripe.",
+      tags: [
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "payload CMS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: oculoss,
+      source_code_link: "https://github.com/gurkanmaral/e-commerce",
+      demo:"https://e-commerce-3ecf73e.payloadcms.app/",
+    },
+    {
+      name: "Movie App",
+      description:
+      "a web app for tracking watched movies and TV shows, with features for ratings, likes, comments, and watchlists. It also includes a social feed to see friends' activity.",
+      tags: [
+        {
+          name: "next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: movieapp,
+      source_code_link: "https://github.com/gurkanmaral/movie-next",
+      demo: "https://movie-next-fawn-zeta.vercel.app/",
+    },
+    {
+      name: "Social Media App",
+      description:
+        "Social media app where you can follow your friends, check their posts, and add comments on them. You can search for people and posts. Also, you can have a chat with them.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "firebase",
+          name: "scss",
           color: "pink-text-gradient",
         },
+        
       ],
-      image: oculoss,
-      source_code_link: "https://github.com/gurkanmaral/oculos",
-      demo:"https://oculos34.com/",
+      image: facebookk,
+      source_code_link: "https://github.com/gurkanmaral/social-media",
+     
     },
     {
       name: "Threads App",
@@ -181,10 +233,37 @@ import {
           name: "tailwind",
           color: "green-text-gradient",
         },
+        
       ],
       image: threads,
       source_code_link: "https://github.com/gurkanmaral/threads-app",
-      demo: "https://threads-d2utrbosl-gurkanmaral.vercel.app/",
+      demo: "https://threads-cs6g8lnst-gurkanmaral.vercel.app/",
+    },
+    {
+      name: "Social Media with Appwrite",
+      description:
+        "Follow friends, explore their posts, and add your thoughts through comments. Effortlessly search for people and posts to stay in the loop. Plus, enjoy private conversations with the built-in chat feature.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "appwrite",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "blue-text-gradient",
+        },        
+      ],
+      image: socialAppwrite,
+      source_code_link: "https://github.com/gurkanmaral/social-media-appwrite",
+      demo: "https://social-media-appwrite-a3ll-fwo9uuksr-gurkanmaral.vercel.app/",
     },
   ];
   
