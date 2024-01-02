@@ -131,7 +131,7 @@ import {
       ],
       image: gamestore,
       source_code_link: "https://github.com/gurkanmaral/game-store",
-      demo: "https://maralcreative.com/"
+      demo: "https://game-store-theta-wheat.vercel.app/"
     },
     {
       name: "E-Store App",
