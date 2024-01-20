@@ -110,28 +110,31 @@ import {
     {
       name: "Game Store App",
       description:
-        "Game store app that similar to steam and epic games store.You can add games to your cart.Search games based on categories and popularity.Also you can see upcoming games.",
+       "Discover, buy, and track your favorite games effortlessly. Browse by categories, stay ahead with upcoming releases, and share your thoughts with the gaming community.",
       tags: [
         {
-          name: "react",
+          name: "next 14",
           color: "blue-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
         {
-          name: "framer-motion",
+          name: "prisma",
           color: "green-text-gradient",
         },
         {
-          name: "redux",
+          name: "Postgresql",
+          color: "blue-text-gradient",
+        },{
+          name: "Stripe",
           color: "blue-text-gradient",
         },
       ],
       image: gamestore,
-      source_code_link: "https://github.com/gurkanmaral/game-store",
-      demo: "https://game-store-theta-wheat.vercel.app/"
+      source_code_link: "https://github.com/gurkanmaral/next14-game-store",
+      demo: "https://next14-game-store.vercel.app/"
     },
     {
       name: "E-Store App",
