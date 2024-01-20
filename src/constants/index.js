@@ -216,9 +216,9 @@ import {
      
     },
     {
-      name: "Threads App",
+      name: "Twitch Clone App",
       description:
-        "Clone of Threads App. You can share threads, add comments to other people's threads.Also you can create communities and post threads to the communities.",
+        "Twitch-inspired app where you can initiate live streams, interact with viewers through comments, block unwanted users, and effortlessly toggle the chat feature on or off.",
       tags: [
         {
           name: "nextjs",
