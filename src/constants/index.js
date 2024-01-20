@@ -129,7 +129,11 @@ import {
           color: "blue-text-gradient",
         },{
           name: "Stripe",
-          color: "blue-text-gradient",
+          color: "green-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "pink-text-gradient",
         },
       ],
       image: gamestore,
@@ -229,18 +233,21 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "mongoose",
+          name: "mysql",
           color: "blue-text-gradient",
         },
         {
           name: "tailwind",
           color: "green-text-gradient",
         },
-        
+        {
+          name: "prisma",
+          color: "pink-text-gradient",
+        },
       ],
       image: threads,
-      source_code_link: "https://github.com/gurkanmaral/threads-app",
-      demo: "https://threads-cs6g8lnst-gurkanmaral.vercel.app/",
+      source_code_link: "https://github.com/gurkanmaral/twitch-clone",
+      demo: "https://twitch-clone-sooty.vercel.app/",
     },
     {
       name: "Social Media with Appwrite",
