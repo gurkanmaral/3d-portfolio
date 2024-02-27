@@ -18,7 +18,7 @@ const About = () => {
     className="mt-[70px] text-white text-[30px] max-w-3xl
     leading-[55px]  tracking-wide about-text "
     >
-       I started my web development journey in August 2022. After college, I wasn't sure which field I wanted to work in. After some research, I decided to take Harvard's open course, CS50, and I really enjoyed it. As a result, I chose web development because I found it captivating to design and create web applications. I have experience in TypeScript, JavaScript, React, Next.js, Node.js, Three.js, React Native, Symfony and Vue.
+       I started my web development journey in August 2022. After college, I wasn't sure which field I wanted to work in. After some research, I decided to take Harvard's open course, CS50, and I really enjoyed it. As a result, I chose web development because I found it captivating to design and create web applications. I have experience in TypeScript, JavaScript, React, Next.js, Node.js, Three.js, React Native, Laravel, Vue and Nuxt.
     </motion.p>
     <motion.div 
     variants={fadeIn("left","spring", 0.1,1)}
