@@ -141,30 +141,29 @@ import {
       demo: "https://next14-game-store.vercel.app/"
     },
     {
-      name: "E-Store App",
+      name: "React Dashboard with laravel 10",
       description:
-        "An e-commerce app has been developed using Payload CMS and integrated with Stripe.",
+        "A Dashboard created by react on frontend laravel sail for backend",
       tags: [
         {
-          name: "next",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "payload CMS",
+          name: "laravel 10",
           color: "pink-text-gradient",
         },
         {
-          name: "stripe",
+          name: "mysql",
           color: "blue-text-gradient",
         },
       ],
       image: oculoss,
-      source_code_link: "https://github.com/gurkanmaral/e-commerce",
-      demo:"https://e-commerce-3ecf73e.payloadcms.app/",
+      source_code_link: "https://github.com/gurkanmaral/react-laravel-dashboard",
     },
     {
       name: "Movie App",

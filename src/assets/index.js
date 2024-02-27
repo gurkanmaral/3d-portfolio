@@ -20,7 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import oculoss from "./e-commerce.png"
+import oculoss from "./dashboard.png"
 import movieapp from "./movie-next.png"
 import threads from "./threads.png"
 import carrent from "./carrent.png";
